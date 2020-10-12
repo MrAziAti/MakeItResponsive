@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16cc6d41-bbd8-47d3-b8d9-31243a8cde5a" name="Default Changelist" comment="home page github test">
-      <change beforePath="$PROJECT_DIR$/Home page/wow.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home page/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.css" afterDir="false" />
+    <list default="true" id="16cc6d41-bbd8-47d3-b8d9-31243a8cde5a" name="Default Changelist" comment="Flytta home page til egen mappe og assosierte med navbaren !">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home page/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home page/mainPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William\IdeaProjects\MakeItResponsive\Home page" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -81,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602483810761</updated>
-      <workItem from="1602483812153" duration="4066000" />
+      <workItem from="1602483812153" duration="5799000" />
     </task>
     <task id="LOCAL−00001" summary="test">
       <created>1602483984015</created>
@@ -125,7 +129,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1602503539490</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Flytta home page til egen mappe og assosierte med navbaren !">
+      <created>1602504267739</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1602504267739</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,13 +156,14 @@
     <MESSAGE value="minor update" />
     <MESSAGE value="test" />
     <MESSAGE value="home page github test" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page github test" />
+    <MESSAGE value="Flytta home page til egen mappe og assosierte med navbaren !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flytta home page til egen mappe og assosierte med navbaren !" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="475" key="Vcs.Push.Dialog.v2" timestamp="1602503559225">
+    <state x="872" y="475" key="Vcs.Push.Dialog.v2" timestamp="1602504307623">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
-    <state x="872" y="475" key="Vcs.Push.Dialog.v2/0.40.2560.1400@0.40.2560.1400" timestamp="1602503559225" />
+    <state x="872" y="475" key="Vcs.Push.Dialog.v2/0.40.2560.1400@0.40.2560.1400" timestamp="1602504307623" />
     <state x="1097" y="662" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602503188880">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
