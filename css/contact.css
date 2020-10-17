@@ -17,16 +17,20 @@ body{
     height: auto;
     margin: auto;
     display: flex;
+    
     flex-wrap: wrap;
+
     padding: 10px;
     border-radius: 20px;
     background: #fff;
+    
     
 }
 .contact-map{
     width: 100%;
     height: auto;
     flex: 50%;
+    
 }
 .contact-map iframe{
     width: 100%;
