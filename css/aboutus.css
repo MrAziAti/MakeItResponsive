@@ -6,7 +6,7 @@ margin-left: 200px;
 
 .headerpic{
     padding-top: 45px;
-    margin-left: -10px;
+    width: 100%;
 }
 
 h1{
@@ -15,7 +15,7 @@ h1{
     padding-top: 10px;
 
 }
-.info{ 
+p{ 
     padding-top: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
