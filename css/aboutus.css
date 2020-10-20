@@ -12,9 +12,10 @@ margin-left: 200px;
 
 .headerpic{
     max-height: 100vh;
-    max-width: 100$;
+    max-width: none;
     height: auto;
-    
+    width: 100vw;
+    object-fit: contain;
     
 }
 
