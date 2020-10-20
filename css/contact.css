@@ -25,11 +25,13 @@ body{
     background: #fff;
     
     
+    
 }
 .contact-map{
     width: 100%;
     height: auto;
     flex: 50%;
+    
     
 }
 .contact-map iframe{
@@ -98,4 +100,16 @@ body{
 .contact-form-btn:hover{
     color: white;
     background-color: black;
+}
+.face{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+}
+.face .fa fa-facebook{
+    position: absolute;
+    background: #3B5998;
+    color: white;
 }
