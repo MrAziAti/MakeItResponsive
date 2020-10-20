@@ -9,6 +9,7 @@ div.navbar
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    
 }
 /* styles the links */
 div.navbar a
@@ -27,5 +28,8 @@ div.navbar a:hover {
 div.navbar a:active {
     background-color: white;
     color: darkgoldenrod;
+}
+.navbar li{
+    display: inline;
 }
 
