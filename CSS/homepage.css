@@ -1,10 +1,75 @@
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Us {
+    margin: 5%;
+    position: relative;
+}
+
+.innovation-camp {
+    margin: 40%;
+    position: relative;
+}
+
+.about-us {
+    margin: 55%;
+    position: relative;
+}
+
+
+.services-link {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    background-color: white;
+}
+
+.future-events {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    background-color: white;
+}
+
+.aboutus {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    background-color: white;
+}
+
+.Us, .innovation-camp, .about-us {
+ 
+    width: 100px;
+    float: left;
+    height: 100px;
+    margin:10px;
+}
+
+#priestess, #leaf, #temperance {
+    width:20px;
+    height: 20px;
+}
+
+section {
+    background-color: burlywood;
+}
+
+
 /* styles the entire div element */
 div.navbar
 {
     font-family: Arial;
-    padding: 15px;
+    padding: 15px; /* vertical width */
     text-align: center;
-    background: white;
+    /*background: white;*/
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -26,8 +91,4 @@ div.navbar a:hover {
 div.navbar a:active {
     background-color: white;
     color: darkgoldenrod;
-}
-
-h1 {
-text-align: center;
 }
