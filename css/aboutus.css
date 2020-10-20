@@ -12,8 +12,7 @@ margin-left: 200px;
 
 .headerimg{
     height: auto;
-    width: 100%;
-    object-fit: contain;
+    width: 100%; 
 }
 
 h1{
