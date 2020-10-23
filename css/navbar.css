@@ -1,5 +1,9 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-/* styles the entire div element */
 div.navbar
 {
     font-family: Arial;
@@ -13,9 +17,9 @@ div.navbar
 /* styles the links */
 .navbar a
 {
-    color: white;
+    color: lightgray;
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.70;
     font: 20px arial;
     margin: 0px 10px;
     padding: 14px 16px; /* space between elements */
@@ -37,8 +41,8 @@ div.navbar
     padding: 15px;
     font-family: Arial;
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-
+    width: auto;
+    bottom: 0%;
 }
 
 .footer li{
@@ -46,7 +50,7 @@ div.navbar
     text-decoration: none;
     opacity: 0.5;
     font: 16px arial;
-    margin: px 10px;
+    margin: 0px 10px;
     padding: 4px 6px; /* space between elements */
 }
 
