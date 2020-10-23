@@ -37,7 +37,7 @@ body{
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     text-align: center;
     color: wheat;
-    background-color: #000;
+    background-image: url("./background.jpg");
     opacity: 0.9;
     
 }
