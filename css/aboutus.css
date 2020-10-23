@@ -1,10 +1,5 @@
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-.contents{
+.allcontent{
 margin-top: 50px;
 margin-right: 200px;
 margin-left: 200px;
@@ -28,11 +23,17 @@ p{
     font-size: 20px;
 }
 
-.mainpicture{
-    padding-top: 10px;
-    margin-left: 200px;
+.maintext{
+    margin: auto;
+    width: 50%;
+    margin-left: 20px;
 }
 
-.staff-row{
-
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
+
