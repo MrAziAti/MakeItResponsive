@@ -29,11 +29,16 @@ p{
     margin-left: 20px;
 }
 
-.mainflex{
-    display: flex;
+.main-flex{
+    display: inline-flex;
     flex-direction: row;
     padding: 20px;
     display: flex;
     flex-direction: row;
 }
 
+.staff-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
