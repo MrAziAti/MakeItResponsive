@@ -31,7 +31,7 @@ body{
 
 }
 .dateTime{
-    width: 100%;
+    width: 80%;
     height: auto;
     flex: 30%;
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
@@ -42,12 +42,12 @@ body{
     
 }
 .dateTime{
-    background-image: url("./anthony-delanoix-hzgs56Ze49s-unsplash.jpg");
+    background-image: url("./background.jpg");
     opacity: 0.6;
     
 }
 .details{
-    width: 100%;
+    width: 80%;
     height: auto;
     flex: 50%;
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
