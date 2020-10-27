@@ -13,40 +13,47 @@ body{
 
 .image{
     background-image: url("./teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg");
+    opacity: 0.8;
     height: 500px;
     width: 100%;
-
     
 }
 
 .events{
-    width: 60%;
+    width: 70%;
     height: auto;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
-    background-color: #fff;
-    justify-content: center;
+    /*background-color: #fff;*/
+    justify-content: space-between;
 
 }
 .dateTime{
     width: 100%;
     height: auto;
-    flex: 40%;
+    flex: 30%;
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     text-align: center;
-    color: wheat;
-    background-image: url("./background.jpg");
-    opacity: 0.9;
+    color: rgb(7, 7, 7);
+    border-radius: 20px 20px 20px 20px;
+    
+    
+}
+.dateTime{
+    background-image: url("./anthony-delanoix-hzgs56Ze49s-unsplash.jpg");
+    opacity: 0.6;
     
 }
 .details{
     width: 100%;
     height: auto;
-    flex: 60%;
+    flex: 50%;
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     text-align: center;
+    background-color:#686E76;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .details p{
