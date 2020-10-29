@@ -1,11 +1,8 @@
 
-@media all and (max-width: 1000px and min-width: 700px){
+@media screen and (max-width: 600px){
 .allcontent{
-margin-top: 50px;
-margin-right: 200px;
-margin-left: 200px;
-margin-bottom: 50px;
-    }
+    margin: 20px 0;
+}
 }
 
 .headerimg{
