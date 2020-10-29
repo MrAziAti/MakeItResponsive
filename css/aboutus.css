@@ -1,9 +1,11 @@
 
+@media all and (max-width: 1000px and min-width: 700px){
 .allcontent{
 margin-top: 50px;
 margin-right: 200px;
 margin-left: 200px;
 margin-bottom: 50px;
+    }
 }
 
 .headerimg{
@@ -52,8 +54,10 @@ p{
 }
 
 .staff img{
-    width: 90%;
+    width: 100%;
     display: inline-block;
-    
+    border-radius: 50%;
+    min-width: 200px;
+    min-height: 200px;
 }
 
