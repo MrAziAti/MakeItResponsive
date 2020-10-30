@@ -131,6 +131,22 @@ body{
     
     border-radius: 20px 20px 0px 0px;
 }
+.details p{
+    margin-top: 40px;
+    padding: 0;
+}
+.details h1{
+    margin:0;
+    padding: 0;
+}
+.dateTime p{
+    margin-top: 40px;
+    padding: 0;
+}
+.dateTime h1{
+    margin:0;
+    padding: 0;
+}
 
 @media (max-width: 550px){
     .events {
