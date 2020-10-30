@@ -12,15 +12,16 @@ body{
 }
 
 .image{
-    background: url("./team-386673_1280.jpeg");
-    background-repeat: no-repeat;
+    background: url("./team-386673_1280.jpeg") no-repeat center;
+    
     background-size: auto;
     
     height: 400px;
     width: 58%;
+    /*padding-top: 400px;*/
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    
     
     border-radius: 20px 20px 0px 0px;
 
@@ -69,13 +70,17 @@ body{
     padding: 0px;
 }
 .image2{
-    background-image: url("./audience-828584_1280.jpg");
+    background: url("./audience-828584_1280.jpg") no-repeat center;
+    
+    background-size: auto;
+    
     height: 400px;
     width: 58%;
-    
+    /*padding-top: 400px;*/
     margin-left: auto;
     margin-right: auto;
-   
+    
+    
     border-radius: 20px 20px 0px 0px;
 }
 .event3{
@@ -113,11 +118,17 @@ body{
 }
 
 .image3{
-    background-image: url("./workplace-1245776_640.jpg");
+    background: url("./workplace-1245776_640.jpg") no-repeat center;
+    
+    background-size: auto;
+    
     height: 400px;
     width: 58%;
+    /*padding-top: 400px;*/
     margin-left: auto;
     margin-right: auto;
+    
+    
     border-radius: 20px 20px 0px 0px;
 }
 
