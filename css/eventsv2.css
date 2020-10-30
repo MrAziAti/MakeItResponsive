@@ -134,18 +134,28 @@ body{
 .details p{
     margin-top: 40px;
     padding: 0;
+    
+    font-family: sans-serif;
 }
 .details h1{
     margin:0;
     padding: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
 .dateTime p{
     margin-top: 40px;
     padding: 0;
+    
+    font-family: sans-serif;
 }
 .dateTime h1{
     margin:0;
     padding: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
 
 @media (max-width: 550px){
