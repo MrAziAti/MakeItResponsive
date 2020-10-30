@@ -1,8 +1,9 @@
-
-@media screen and (max-width: 600px){
-.allcontent{
-    margin: 20px 0;
-}
+.main{
+    flex: 30%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .headerimg{
@@ -12,49 +13,40 @@
 
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
 
 }
 p{ 
     padding-top: 10px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.maintext{
-    margin: auto;
-    width: 50%;
-    margin-left: 20px;
+.mainimg{
+    margin
+    width: 100%;
 }
 
 .main-flex{
-    display: inline-flex;
-    flex-direction: row;
-    padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.staff{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
+.container{
+    margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.description{
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.staff img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
-    display: inline-block;
-    border-radius: 50%;
-    min-width: 200px;
-    min-height: 200px;
+    height: 100%;
 }
 
+.row{
+    font-size: 16px;
+    text-align: center;
+}
+
+.staffimg{
+    width: 100%;
+}
