@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main{
     flex: 30%;
     margin-top: 50px;
@@ -22,13 +26,19 @@ p{
     font-size: 20px;
 }
 
-.mainimg{
-    width: 100%;
-}
-
 .main-flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+.maintext{
+    flex: 50%;
+}
+
+.mainimg{
+    flex: 50%;
+    width: 90%;
+    text-align: center;
 }
 
 .container{
