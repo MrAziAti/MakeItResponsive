@@ -1,0 +1,116 @@
+*{
+    padding-top: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+        background-color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+          
+}
+
+.image{
+    background-image: url("./team-386673_1280.jpeg");
+    height: 400px;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.events{
+    width: 58%;
+    height: auto;
+    display: flex;
+  
+    justify-content:  space-around;
+    margin: auto;
+    padding: 0px;
+}
+.details{
+    width: 100%;
+    height: auto;
+    flex: 60%;
+    box-shadow: 0 -8px 0px -10px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color:rgba(130, 130, 130, 0.8);
+}
+.dateTime{
+    width: 100%;
+    height: auto;
+    flex: 20%;
+    box-shadow: 0 -8px 0px -10px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 0px 20px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(130, 130, 130, 0.8);
+    
+}
+.event2{
+    width: 58%;
+    height: auto;
+    display: flex;
+    justify-content:  space-around;
+    margin: auto;
+    padding: 0px;
+}
+.image2{
+    background-image: url("./audience-828584_1280.jpg");
+    height: 400px;
+    width: 58%;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    border-radius: 20px 20px 0px 0px;
+}
+.event3{
+    width: 58%;
+    height: auto;
+    display: flex;
+    justify-content:  center;
+    margin: auto;
+    padding: 0px;
+}
+.mainEvent{
+    font-weight: 20px;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+}
+.info2 {
+    padding: 0;
+    margin:0;
+    font-weight: 20px;
+    text-align: center;
+    color:black;
+    padding-bottom: 20px;
+    
+}
+.info{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    font-weight: 20px;
+    text-align: center;
+    color:black;
+    padding-bottom: 20px;
+
+}
+
+.image3{
+    background-image: url("./workplace-1245776_640.jpg");
+    height: 400px;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+}
