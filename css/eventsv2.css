@@ -1,14 +1,18 @@
 *{
-    padding-top: 40px;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-        background-color:white;
+        background-color:lightgray;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: normal;
         font-size: 16px;
           
+}
+h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .image{
@@ -130,6 +134,32 @@ body{
     
     
     border-radius: 20px 20px 0px 0px;
+}
+.details p{
+    margin-top: 40px;
+    padding: 0;
+    
+    font-family: sans-serif;
+}
+.details h1{
+    margin:0;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+.dateTime p{
+    margin-top: 40px;
+    padding: 0;
+    
+    font-family: sans-serif;
+}
+.dateTime h1{
+    margin:0;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
 
 @media (max-width: 550px){
