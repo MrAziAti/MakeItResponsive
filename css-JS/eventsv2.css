@@ -35,6 +35,7 @@ body{
         border-radius: 10px;
         
         
+        
     
 }
 .left {
@@ -49,12 +50,20 @@ body{
     font-size: 1.5rem;
   }
 .details{
+    
     width: 100%;
     height: auto;
     text-align: center;
     justify-content: center;
     padding: 20px;
-    color: black;
+    color: white;
+    background-color:#333;
+    opacity: 0.9;
+    
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 20px;
+    
+    
 
 
 }
@@ -63,7 +72,14 @@ body{
     height: auto;
     text-align: center;
     padding: 20px;
-    color: black;
+    color: white;
+    background-color: #333;
+    opacity: 0.9;
+    
+    border-radius: 0px 0px 40px 40px;
+    
+
+    
 
 }
 
@@ -79,6 +95,7 @@ h1{
     margin: auto;
     padding: 0px;
    margin-bottom: 50px;
+  
 }
 
 .campThree{
@@ -86,6 +103,7 @@ h1{
     height: auto;
     margin:auto;
     margin-bottom: 80px;
+    
 }
 
 .people{
@@ -96,6 +114,7 @@ h1{
         height: auto;
         max-width: 100%; 
         border-radius: 10px;
+        
       
 }
 .bonfire{
@@ -105,6 +124,7 @@ h1{
     height: auto;
     max-width: 100%; 
     border-radius: 10px;
+    
 
 }
 .footer{
@@ -119,6 +139,7 @@ h1{
     text-align: center;
 }
 
+
 @media (max-width: 550px){
     .container2  {
         flex-direction: column;
@@ -126,85 +147,10 @@ h1{
     .container1{
         flex-direction: column;
     }
-    .events .dateTime {
-        padding: 0;
-        border-radius: 0px 0px 0px 0px;
-        
-    }
-    .events .details{
-        padding: 10px;
-        border-radius: 0px 0px 8px 8px;
-    }
-    .event2{
+  
+    .maincontainer{
         flex-direction: column;
         
     }
-    .event2 .dateTime {
-        padding: 0;
-        border-radius: 0px 0px 0px 0px;
-        
-    }
-    .event2 .details{
-        padding: 10px;
-        border-radius: 0px 0px 8px 8px;
-    }
-    .event3{
-        flex-direction: column;
-    }
-    .event3 .dateTime {
-        padding: 0;
-        border-radius: 0px 0px 0px 0px;
-        
-    }
-    .event3 .details{
-        padding: 10px;
-        border-radius: 0px 0px 8px 8px;
-    }
-
-
-    @media only screen and (min-width: 600px) {
-        
-        .col-s-6 {width: 50%;}
-        .col-s-7 {width: 58.33%;}
-        .col-s-8 {width: 66.66%;}
-        .col-s-9 {width: 75%;}
-       
-      }
-      
-      @media only screen and (min-width: 768px) {
-        
-        .col-6 {width: 50%;}
-        .col-7 {width: 58.33%;}
-        .col-8 {width: 66.66%;}
-        .col-9 {width: 75%;}
-        
-      }
+    
 }
-.footer{
-    background-color: rgba(0, 0, 0, 0.80);
-    padding: 15px;
-    font-family: Arial;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-
-
-
-.footer li{
-    color: white;
-    text-decoration: none;
-    opacity: 1;
-    font: 16px arial;
-    margin: px 10px;
-    padding: 4px 6px; /* space between elements */
-}
-
-.footer-bottom{
-    text-align: center;
-    color: darkgray;
-}
-
