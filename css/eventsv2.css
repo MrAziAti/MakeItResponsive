@@ -18,14 +18,10 @@ body{
     padding: 10px;
 }
 .campOne{
-
-       /* margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 50px;*/
-       
-        width: 80%;
+   
+        width: 70%;
         justify-content: space-around;
+        margin-bottom: 50px;
         
 
 }
@@ -78,19 +74,17 @@ h1{
 }
 
 .campTwo{
-    width: 80%;
+    width: 70%;
     height: auto;
     margin: auto;
     padding: 0px;
-    margin-bottom: 30px;
+   margin-bottom: 50px;
 }
 
 .campThree{
-    width: 58%;
+    width: 70%;
     height: auto;
-    justify-content:  center;
     margin:auto;
-    padding: 0px;
     margin-bottom: 80px;
 }
 
