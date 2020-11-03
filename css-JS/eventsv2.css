@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+          
+}
+.header{
+    height: auto;
+    width: 100%; 
+    opacity: 0.9;
+    
+}
+.maincontainer{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.campOne{
+   
+        width: 50%;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        
+
+}
+.innovationpic{
+  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%; 
+        border-radius: 10px;
+        
+        
+        
+    
+}
+.left {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(248, 247, 247);
+    font-size: 1.5rem;
+  }
+.details{
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    background-color:#333;
+    opacity: 0.9;
+    
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 20px;
+    
+    
+
+
+}
+.dateTime{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #333;
+    opacity: 0.9;
+    
+    border-radius: 0px 0px 40px 40px;
+    
+
+    
+
+}
+
+h1{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+.campTwo{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+   margin-bottom: 50px;
+  
+}
+
+.campThree{
+    width: 50%;
+    height: auto;
+    margin:auto;
+    margin-bottom: 80px;
+    
+}
+
+.people{
+
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%; 
+        border-radius: 10px;
+        
+      
+}
+.bonfire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%; 
+    border-radius: 10px;
+    
+
+}
+/*.footer{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 15px;
+    font-family: Arial;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}*/
+
+
+@media (max-width: 550px){
+    .container2  {
+        flex-direction: column;
+    }
+    .container1{
+        flex-direction: column;
+    }
+  
+    .maincontainer{
+        flex-direction: column;
+        
+    }
+    
+}

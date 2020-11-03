@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -13,8 +14,9 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: black;
     color: white;
+
 }
 
 .brand-title {
@@ -97,3 +99,36 @@ body {
         display: flex;
     }
 }
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 15px;
+    font-family: Arial;
+    top: 0;
+    Position the navbar at the top of the page */
+    width: auto; /* Full width */
+
+}
+
+
+
+.footer li{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    font: 16px arial;
+    margin: 5px 10px;
+    padding: 4px 6px; /* space between elements */
+}
+
+.footer-bottom{
+    text-align: center;
+    color: darkgray;
+}
+
+
+
+
+
+
+

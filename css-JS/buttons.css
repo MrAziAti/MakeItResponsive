@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+
+.Velkomst {
+background-image:
+url("../images/getty_691886452_405128.jpg");
+padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
+.Innovation {
+    background-image:
+            url("../images/POC21_innovation_camp.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
+.About {
+    background-image:
+            url("../images/getty_690855708_331314.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
+.Contact {
+    background-image:
+            url("../images/P35-i-høstfarger-foto-Benjamin-Ward-2018-30284435177_272250121c_o-2400x1200px.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    align-content: center;
+}
+
+
+.p {
+    font-family: Arial;
+    color: white;
+}
+
+h1 {
+    font-size: 65px;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 2px 2px 5px black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
