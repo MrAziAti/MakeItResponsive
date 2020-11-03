@@ -15,7 +15,7 @@ html, body{
 
 }
 .container{
-    width: 60%;
+    width: 40%;
     height: auto;
     display: flex;
     margin: auto;
@@ -35,7 +35,7 @@ html, body{
 }
     
     
-}
+
 .kart{
     width: 100%;
     height: auto;
