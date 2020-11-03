@@ -29,38 +29,6 @@ p{
     font-size: 20px;
 }
 
-/* styles the entire div element */
-div.navbar
-{
-    font-family: Arial;
-    padding: 15px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.80);
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-/* styles the links */
-.navbar a
-{
-    color: white;
-    text-decoration: none;
-    opacity: 1;
-    font: 20px arial;
-    margin: 0px 10px;
-    padding: 14px 16px; /* space between elements */
-}
-/* when hovering */
-.navbar a:hover {
-    color: white;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-}
-/* when clicking link */
-.navbar a:active {
-    background-color: white;
-    color: darkgoldenrod;
-}
 
 .wrapper {
 margin: 0 auto 0 auto;
