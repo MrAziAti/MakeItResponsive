@@ -1,11 +1,17 @@
-*
+/**
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}*/
+.header{
+    height: auto;
+    width: 100%; 
+    opacity: 0.9;
+    
 }
 
-html, body{
+/*html, body{
 
     height: 100%;
     align-items: center;
@@ -13,12 +19,15 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("background.jpg");
 
-}
+}*/
+
 .container{
-    width: 40%;
+    width: 50%;
     height: auto;
     display: flex;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
@@ -27,11 +36,11 @@ html, body{
 
 
 
-    position: absolute;
+    /*position: absolute;
     top: 48%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
     
     
@@ -98,7 +107,7 @@ html, body{
     border: none;
     outline: none;
     border-radius: 50px;
-    background: grey;
+    background:#333;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 0;
