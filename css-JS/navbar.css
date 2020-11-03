@@ -14,8 +14,9 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: black;
     color: white;
+
 }
 
 .brand-title {
@@ -103,7 +104,8 @@ body {
     background-color: rgba(0, 0, 0, 0.80);
     padding: 15px;
     font-family: Arial;
-    top: 0; /* Position the navbar at the top of the page */
+    top: 0;
+    Position the navbar at the top of the page */
     width: auto; /* Full width */
 
 }
@@ -115,7 +117,7 @@ body {
     text-decoration: none;
     opacity: 1;
     font: 16px arial;
-    margin: px 10px;
+    margin: 5px 10px;
     padding: 4px 6px; /* space between elements */
 }
 
@@ -125,12 +127,8 @@ body {
 }
 
 
-.headerimg{
-    height: auto;
-    max-width: 100%;
-}
 
-entire div element */
+
 
 
 
