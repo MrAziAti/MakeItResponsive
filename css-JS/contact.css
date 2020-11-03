@@ -10,7 +10,9 @@
     opacity: 0.9;
     
 }
-
+body {
+    background-color: black;
+}
 /*html, body{
 
     height: 100%;
@@ -120,11 +122,10 @@
     color: white;
     background-color: black;
 }
-/*.face{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-      
-}*/
-
+.image {
+    background-image:
+            url("P35-i-høstfarger-foto-Benjamin-Ward-2018-30284435177_272250121c_o-2400x1200px.jpg");
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
