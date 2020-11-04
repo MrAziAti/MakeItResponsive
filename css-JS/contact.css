@@ -63,7 +63,7 @@ body {
 }
 /*Styling av send inn knappen*/
 .kontaktskjema-btn{
-    width: 100%;
+    min-width: 50%;
     border: none;
     outline: none;
     border-radius: 50px;
