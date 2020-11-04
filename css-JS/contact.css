@@ -5,9 +5,7 @@
     opacity: 0.9;
     
 }
-body {
-   /* background-color: black;*/
-}
+
 
 .container{
     display: flex;
@@ -93,6 +91,5 @@ width: max-width 100%;
     .container {
         flex-direction: column;
     }
-    
 
 }
